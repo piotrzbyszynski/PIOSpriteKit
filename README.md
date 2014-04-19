@@ -1,4 +1,4 @@
-PIOSpriteKit
+PIOSpriteKit - Utility Library for Apple SpriteKit
 ============
 
-PIOSpriteKit
+
