@@ -25,6 +25,12 @@
 #pragma mark -
 #pragma mark Life cycle
 
+- (void)viewDidLoad {
+
+	self.spriteKitView.showsNodeCount	= YES;
+	self.spriteKitView.showsFPS			= YES;
+}
+
 - (void)viewWillLayoutSubviews {
 
 
@@ -33,7 +39,7 @@
 
 	if (self.sampleScene == nil) {
 
-		self.sampleScene	= [[ExampleScrollScene alloc] initWithSize:self.spriteKitView.frame.size];
+		self.sampleScene	= [[ExampleScrollScene alloc] initWithSize:self.spriteKitView.frame.size tiledBackground:YES];
 
 		[self presentScene:self.sampleScene];
 	}

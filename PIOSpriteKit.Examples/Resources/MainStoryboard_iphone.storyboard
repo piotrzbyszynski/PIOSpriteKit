@@ -45,6 +45,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="ZX6-a6-4qw"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="spriteKitView" destination="sZL-iT-Whv" id="ngE-xr-RZz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hfP-oQ-SkE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

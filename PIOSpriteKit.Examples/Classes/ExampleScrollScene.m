@@ -5,7 +5,7 @@
 
 
 #import "ExampleScrollScene.h"
-
+#import "ExampleTiledNode.h"
 
 
 @implementation ExampleScrollScene
@@ -14,13 +14,32 @@
 #pragma mark -
 #pragma mark Initialization
 
-- (instancetype)initWithSize:(CGSize)size {
+- (instancetype)initWithSize:(CGSize)size tiledBackground:(BOOL)tiledBackground {
 
 	if([super initWithSize:size] != nil) {
 
+		SKSpriteNode *backgroundNode;
 
-		self.rootNode.texture		= [SKTexture textureWithImageNamed:@"sample_image.jpg"];
-  	 	self.rootNode.size			= self.rootNode.texture.size;
+		//Standard node as background
+
+		if (!tiledBackground) {
+
+			backgroundNode				= [SKSpriteNode spriteNodeWithImageNamed:@"sample_image.jpg"];
+		}
+		else {
+
+			//Tiled node as background
+			backgroundNode				= [[[ExampleTiledNode alloc] init] load];
+		}
+
+
+		backgroundNode.anchorPoint	= CGPointZero;
+		backgroundNode.position		= CGPointZero;
+
+		self.rootNode.size			= backgroundNode.size;
+
+
+		[self.rootNode addChild:backgroundNode];
 	}
 
 	return self;
