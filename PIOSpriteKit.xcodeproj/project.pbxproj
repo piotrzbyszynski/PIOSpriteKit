@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF235813190693F100657AD4 /* sample_image_00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF235811190693F100657AD4 /* sample_image_00.jpg */; };
+		AF235814190693F100657AD4 /* sample_image_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF235812190693F100657AD4 /* sample_image_01.jpg */; };
 		AF4BF61A18FAE2240015AE48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4BF5C818FAE0040015AE48 /* Foundation.framework */; };
 		AF4BF64218FAE2BD0015AE48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4BF5C818FAE0040015AE48 /* Foundation.framework */; };
 		AF4BF64418FAE2BD0015AE48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4BF64318FAE2BD0015AE48 /* CoreGraphics.framework */; };
@@ -19,8 +21,12 @@
 		AFF557B418FD1E73000DFC43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF557B318FD1E73000DFC43 /* Images.xcassets */; };
 		AFF557B618FD1EC6000DFC43 /* MainStoryboard_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF557B518FD1EC6000DFC43 /* MainStoryboard_iphone.storyboard */; };
 		AFF557B818FD1EE1000DFC43 /* MainStoryboard_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF557B718FD1EE1000DFC43 /* MainStoryboard_ipad.storyboard */; };
+		BF8D202C5DED57801D401B46 /* ExampleTiledNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2922D96E9DC511880E45 /* ExampleTiledNode.m */; };
 		BF8D225BB1BCA2F4B0528C4B /* PIOScrollScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2A778A9626745E674AA3 /* PIOScrollScene.m */; };
 		BF8D269D09A7EC2459568780 /* ExampleScrollScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D205531F1282F16BE6725 /* ExampleScrollScene.m */; };
+		BF8D26B918BB5E0B52D3F6E3 /* ExampleTiledNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2922D96E9DC511880E45 /* ExampleTiledNode.m */; };
+		BF8D270AE4B38489422F8979 /* PIOTiledNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D29B23AF3B9CF637C34D3 /* PIOTiledNode.m */; };
+		BF8D2B7E056308639CEA281E /* PIOTiledNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D29B23AF3B9CF637C34D3 /* PIOTiledNode.m */; };
 		BF8D2DFE8FF9145F70BC85F6 /* ExampleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D287AEB4B65B1B2982D48 /* ExampleScrollViewController.m */; };
 		BF8D2EF04C077ECAD924FE8C /* PIOScrollScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2A778A9626745E674AA3 /* PIOScrollScene.m */; };
 /* End PBXBuildFile section */
@@ -38,6 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF235811190693F100657AD4 /* sample_image_00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_image_00.jpg; sourceTree = "<group>"; };
+		AF235812190693F100657AD4 /* sample_image_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_image_01.jpg; sourceTree = "<group>"; };
 		AF4BF5C818FAE0040015AE48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF4BF61418FAE17A0015AE48 /* PIOSpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIOSpriteKit.h; path = Classes/PIOSpriteKit.h; sourceTree = "<group>"; };
 		AF4BF61918FAE2240015AE48 /* libPIOSpriteKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPIOSpriteKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,11 +64,17 @@
 		AFF557B518FD1EC6000DFC43 /* MainStoryboard_iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iphone.storyboard; sourceTree = "<group>"; };
 		AFF557B718FD1EE1000DFC43 /* MainStoryboard_ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_ipad.storyboard; sourceTree = "<group>"; };
 		BF8D205531F1282F16BE6725 /* ExampleScrollScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleScrollScene.m; path = Classes/ExampleScrollScene.m; sourceTree = "<group>"; };
+		BF8D23DAB9861644B07E8576 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF8D287AEB4B65B1B2982D48 /* ExampleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleScrollViewController.m; path = Classes/ExampleScrollViewController.m; sourceTree = "<group>"; };
+		BF8D28EB2561A92396BE786D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
+		BF8D2922D96E9DC511880E45 /* ExampleTiledNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTiledNode.m; sourceTree = "<group>"; };
 		BF8D2975DE6AEF06C94A185C /* ExampleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleScrollViewController.h; path = Classes/ExampleScrollViewController.h; sourceTree = "<group>"; };
 		BF8D298A21EF1C04E6D4F981 /* ExampleScrollScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleScrollScene.h; path = Classes/ExampleScrollScene.h; sourceTree = "<group>"; };
+		BF8D29B23AF3B9CF637C34D3 /* PIOTiledNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIOTiledNode.m; path = Classes/PIOTiledNode.m; sourceTree = "<group>"; };
 		BF8D2A778A9626745E674AA3 /* PIOScrollScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIOScrollScene.m; path = Classes/PIOScrollScene.m; sourceTree = "<group>"; };
+		BF8D2CAA22F397759A9219D5 /* PIOTiledNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIOTiledNode.h; path = Classes/PIOTiledNode.h; sourceTree = "<group>"; };
 		BF8D2E6358A137D77E3D42EF /* PIOScrollScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIOScrollScene.h; path = Classes/PIOScrollScene.h; sourceTree = "<group>"; };
+		BF8D2F5E5C302814B5B564AB /* ExampleTiledNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTiledNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +105,8 @@
 				AF4BF64718FAE2BD0015AE48 /* Examples */,
 				AF4BF5C718FAE0040015AE48 /* Frameworks */,
 				AF4BF66E18FAE2EC0015AE48 /* Products */,
+				BF8D23DAB9861644B07E8576 /* LICENSE */,
+				BF8D28EB2561A92396BE786D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +127,8 @@
 				AFF557AB18FD13C0000DFC43 /* PIOScrollSceneViewController.h */,
 				AFF557AC18FD13C0000DFC43 /* PIOScrollSceneViewController.m */,
 				AF4BF61418FAE17A0015AE48 /* PIOSpriteKit.h */,
+				BF8D2CAA22F397759A9219D5 /* PIOTiledNode.h */,
+				BF8D29B23AF3B9CF637C34D3 /* PIOTiledNode.m */,
 			);
 			name = Classes;
 			path = PIOSpriteKit;
@@ -156,6 +174,8 @@
 				BF8D287AEB4B65B1B2982D48 /* ExampleScrollViewController.m */,
 				AFF557AF18FD1E5C000DFC43 /* PIOAppDelegate.h */,
 				AFF557B018FD1E5C000DFC43 /* PIOAppDelegate.m */,
+				BF8D2922D96E9DC511880E45 /* ExampleTiledNode.m */,
+				BF8D2F5E5C302814B5B564AB /* ExampleTiledNode.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -163,6 +183,8 @@
 		AFF557B218FD1E73000DFC43 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AF235811190693F100657AD4 /* sample_image_00.jpg */,
+				AF235812190693F100657AD4 /* sample_image_01.jpg */,
 				AFDC52BB190141D600A4A8E1 /* sample_image.jpg */,
 				AFF557B318FD1E73000DFC43 /* Images.xcassets */,
 				AFF557B518FD1EC6000DFC43 /* MainStoryboard_iphone.storyboard */,
@@ -240,9 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF557B818FD1EE1000DFC43 /* MainStoryboard_ipad.storyboard in Resources */,
+				AF235813190693F100657AD4 /* sample_image_00.jpg in Resources */,
 				AF4BF64C18FAE2BD0015AE48 /* InfoPlist.strings in Resources */,
 				AFF557B418FD1E73000DFC43 /* Images.xcassets in Resources */,
 				AFDC52BC190141D600A4A8E1 /* sample_image.jpg in Resources */,
+				AF235814190693F100657AD4 /* sample_image_01.jpg in Resources */,
 				AFF557B618FD1EC6000DFC43 /* MainStoryboard_iphone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +280,8 @@
 			files = (
 				AFF557AD18FD13C0000DFC43 /* PIOScrollSceneViewController.m in Sources */,
 				BF8D225BB1BCA2F4B0528C4B /* PIOScrollScene.m in Sources */,
+				BF8D2B7E056308639CEA281E /* PIOTiledNode.m in Sources */,
+				BF8D26B918BB5E0B52D3F6E3 /* ExampleTiledNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +295,8 @@
 				AFF557B118FD1E5C000DFC43 /* PIOAppDelegate.m in Sources */,
 				BF8D2DFE8FF9145F70BC85F6 /* ExampleScrollViewController.m in Sources */,
 				BF8D269D09A7EC2459568780 /* ExampleScrollScene.m in Sources */,
+				BF8D270AE4B38489422F8979 /* PIOTiledNode.m in Sources */,
+				BF8D202C5DED57801D401B46 /* ExampleTiledNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

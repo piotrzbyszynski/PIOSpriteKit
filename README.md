@@ -14,6 +14,8 @@ Simply add the files in the [PIOSpriteKit/Classes](https://github.com/pzbyszynsk
 What's included
 ----------------
 - [PIOScrollSceneViewController](#PIOScrollSceneViewController)
+- [PIOTiledNode](#PIOTiledNode)
+
 
 <a name="PIOScrollSceneViewController"></a>
 PIOScrollSceneViewController
@@ -23,7 +25,10 @@ PIOScrollSceneViewController lets you scroll and zoom your scene. It consists of
 **First of all setup your scene**
 
 1. Make sure your scene inherits from `PIOScrollViewScene`
-	`@interface ExampleScrollScene : PIOScrollScene`
+
+	```objective-c
+	@interface ExampleScrollScene : PIOScrollScene
+	```
 
 
 2. Initialize `rootNode` property of your scene with a `SKSpriteNode` you wish to pan and zoom. `[PIOScrollScene rootNode]` is the main node of the scene.
@@ -63,7 +68,10 @@ PIOScrollSceneViewController lets you scroll and zoom your scene. It consists of
 **Setup your view controller**
 
 1. Make sure your view controller inherits from `PIOScrollSceneViewController`
-    `@interface ExampleScrollViewController : PIOScrollSceneViewController`
+    ```objective-c
+    @interface ExampleScrollViewController : PIOScrollSceneViewController
+    ```
+
 
 2. Present your scene using `presentScene` method.
 
@@ -81,6 +89,56 @@ PIOScrollSceneViewController lets you scroll and zoom your scene. It consists of
 		}
 	}
 	```
+
+
+<a name="PIOTiledNode"></a>
+PIOTiledNode
+----------------------------
+PIOTiledNode lets you create node that consists of several tiles.
+
+**Setup your tile node**
+
+1. Make sure your node inherits from `PIOTiledNode`
+
+	```objective-c
+	@interface ExampleTiledNode : PIOTiledNode
+	```
+
+2. Override `PIOTiledNode` properties that let's you specify number of rows the node consists of
+
+	```objective-c
+	- (uint)rowsCount {
+
+		return 1;
+	}
+
+	- (uint)columnsCount {
+
+		return 2;
+	}
+	```
+
+3. Override `imageFileNameForRow:column` method, that returns tile file name for given row and column
+
+	```objective-c
+	- (NSString *)imageFileNameForRow:(NSUInteger)row column:(NSUInteger)column {
+
+		return [NSString stringWithFormat:@"sample_image_%lu%lu.jpg", (unsigned long) row, (unsigned long) column];
+	}
+	```
+
+**Use your tiled node**
+
+1. Call `[PIOTiledNode load]` method to load your tile node
+
+	```objective-c
+	SKSpriteNode *sampleNode;
+	sampleNode	= [[[ExampleTiledNode alloc] init] load];
+	```
+
+2. Use it as any other node
+
+
 
 You can find the working example app in [Examples](https://github.com/pzbyszynski/PIOSpriteKit/tree/master/PIOSpriteKit.Examples) folder. Enjoy!
 

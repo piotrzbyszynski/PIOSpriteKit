@@ -25,6 +25,12 @@
 #pragma mark -
 #pragma mark Life cycle
 
+- (void)viewDidLoad {
+
+	self.spriteKitView.showsNodeCount	= YES;
+	self.spriteKitView.showsFPS			= YES;
+}
+
 - (void)viewWillLayoutSubviews {
 
 
