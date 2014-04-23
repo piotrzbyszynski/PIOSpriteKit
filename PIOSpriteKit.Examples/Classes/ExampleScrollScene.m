@@ -14,23 +14,18 @@
 #pragma mark -
 #pragma mark Initialization
 
-- (instancetype)initWithSize:(CGSize)size tiledBackground:(BOOL)tiledBackground {
+- (instancetype)initWithSize:(CGSize)size {
 
 	if([super initWithSize:size] != nil) {
 
 		SKSpriteNode *backgroundNode;
 
 		//Standard node as background
+		//backgroundNode				= [SKSpriteNode spriteNodeWithImageNamed:@"sample_image.jpg"];
 
-		if (!tiledBackground) {
+		//Tiled node as background
+		backgroundNode				= [[[ExampleTiledNode alloc] init] load];
 
-			backgroundNode				= [SKSpriteNode spriteNodeWithImageNamed:@"sample_image.jpg"];
-		}
-		else {
-
-			//Tiled node as background
-			backgroundNode				= [[[ExampleTiledNode alloc] init] load];
-		}
 
 
 		backgroundNode.anchorPoint	= CGPointZero;

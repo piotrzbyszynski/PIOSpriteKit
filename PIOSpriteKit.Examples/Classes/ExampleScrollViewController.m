@@ -39,7 +39,7 @@
 
 	if (self.sampleScene == nil) {
 
-		self.sampleScene	= [[ExampleScrollScene alloc] initWithSize:self.spriteKitView.frame.size tiledBackground:YES];
+		self.sampleScene	= [[ExampleScrollScene alloc] initWithSize:self.spriteKitView.frame.size];
 
 		[self presentScene:self.sampleScene];
 	}

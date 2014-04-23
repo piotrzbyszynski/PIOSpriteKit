@@ -12,8 +12,4 @@
 @interface ExampleScrollScene : PIOScrollScene
 
 
-#pragma mark -
-#pragma mark View lifecycle
-
-- (instancetype)initWithSize:(CGSize)size tiledBackground:(BOOL)tiledBackground;
 @end

@@ -64,7 +64,9 @@
 		AFF557B518FD1EC6000DFC43 /* MainStoryboard_iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iphone.storyboard; sourceTree = "<group>"; };
 		AFF557B718FD1EE1000DFC43 /* MainStoryboard_ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_ipad.storyboard; sourceTree = "<group>"; };
 		BF8D205531F1282F16BE6725 /* ExampleScrollScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleScrollScene.m; path = Classes/ExampleScrollScene.m; sourceTree = "<group>"; };
+		BF8D23DAB9861644B07E8576 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF8D287AEB4B65B1B2982D48 /* ExampleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleScrollViewController.m; path = Classes/ExampleScrollViewController.m; sourceTree = "<group>"; };
+		BF8D28EB2561A92396BE786D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		BF8D2922D96E9DC511880E45 /* ExampleTiledNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTiledNode.m; sourceTree = "<group>"; };
 		BF8D2975DE6AEF06C94A185C /* ExampleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleScrollViewController.h; path = Classes/ExampleScrollViewController.h; sourceTree = "<group>"; };
 		BF8D298A21EF1C04E6D4F981 /* ExampleScrollScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleScrollScene.h; path = Classes/ExampleScrollScene.h; sourceTree = "<group>"; };
@@ -103,6 +105,8 @@
 				AF4BF64718FAE2BD0015AE48 /* Examples */,
 				AF4BF5C718FAE0040015AE48 /* Frameworks */,
 				AF4BF66E18FAE2EC0015AE48 /* Products */,
+				BF8D23DAB9861644B07E8576 /* LICENSE */,
+				BF8D28EB2561A92396BE786D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
