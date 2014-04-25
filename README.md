@@ -7,9 +7,15 @@ PIOSpriteKit is a utility library for Apple's SpriteKit. It's goal is to elimina
 
 Adding to your project
 ----------------
+
 Simply add the files in the [PIOSpriteKit/Classes](https://github.com/pzbyszynski/PIOSpriteKit/tree/master/PIOSpriteKit/Classes) to your project. You will also need to link your project with SpriteKit.framework.
 
 
+If you use CocoaPods, just include following line in your Pod file:
+
+```
+pod 'PIOSpriteKit'
+```
 
 What's included
 ----------------
