@@ -6,4 +6,6 @@
 #import <Foundation/Foundation.h>
 #import "PIOScrollScene.h"
 #import "PIOScrollSceneViewController.h"
+#import "PIOTiledNode.h"
+#import "PIOStaticNode.h"
 
